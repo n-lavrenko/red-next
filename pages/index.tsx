@@ -1,7 +1,12 @@
-export default function HomePage() {
+import { Home } from '@/screens/home/Home'
+import { NextPage } from 'next'
+
+
+const HomePage: NextPage = () => {
 	return (
-		<div>
-			<h1>Home</h1>
-		</div>
+    <Home />
 	)
 }
+
+export default HomePage
+
